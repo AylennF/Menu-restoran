@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #b5936f;
+  background-color: #7e2c56;
 }
 
 body a {
@@ -53,7 +53,7 @@ body a {
   width: 90vw;
   height: 40vh;
   border-radius: 5px;
-  background-color: beige;
+  background-color: #f4e9f0;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
 }
@@ -66,7 +66,7 @@ body a {
 .estiloOpcionesMenu:hover, .cuerpo__menu__items--entradas:hover, .cuerpo__menu__items--carnes:hover, .cuerpo__menu__items--pizzas:hover, .cuerpo__menu__items--sanguches:hover, .cuerpo__menu__items--guarniciones:hover, .cuerpo__menu__items--bebidas:hover, .cuerpo__menu__items--pastas:hover, .cuerpo__menu__items--postres:hover {
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-  background-color: #ceceba;
+  background-color: #d8bdcf;
 }
 
 @media (min-width: 1025px) {
@@ -124,7 +124,7 @@ body a {
   height: 70px;
   margin: 5px;
   border-radius: 5px;
-  background-color: beige;
+  background-color: #f4e9f0;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
 }
@@ -161,7 +161,9 @@ body a {
 
 nav {
   height: 80px;
-  background: beige;
+  background: #f4e9f0;
+  -webkit-box-shadow: 2px 1px 1px 1px rgba(41, 41, 41, 0.185);
+          box-shadow: 2px 1px 1px 1px rgba(41, 41, 41, 0.185);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,7 +199,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #a38361;
+  color: #ad5181;
 }
 
 nav .botonMenu i {
@@ -223,7 +225,7 @@ nav .logo img {
     z-index: 2;
   }
   nav ul {
-    background: beige;
+    background: #f4e9f0;
     position: fixed;
     top: 80px;
     left: -100%;
@@ -242,7 +244,7 @@ nav .logo img {
     display: block;
   }
   nav ul li a:hover {
-    color: #a38361;
+    color: #ad5181;
     background: none;
   }
   nav .botonMenu i {
