@@ -6,8 +6,8 @@
 }
 
 body {
-  margin-top: 200px;
-  background-color: #b5936f;
+  margin-top: 50px;
+  background-image: url("../media/fondo.png");
 }
 
 body a {
@@ -82,6 +82,24 @@ body a {
   }
 }
 
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.section h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 2.7em;
+  margin-bottom: 15px;
+}
+
 .section__contenido {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,11 +111,36 @@ body a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  text-align: center;
+  text-align: left;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  padding: 7px 15px;
+  height: 70px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: beige;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+}
+
+.section__contenido h2 {
+  font-family: "Varela Round", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.section__contenido p {
+  font-family: "Varela Round", sans-serif;
+  color: #494949;
+  font-size: 0.8em;
+}
+
+.section__contenido #precio {
+  font-size: 1.1em;
+  padding-left: 5px;
+  color: black;
+  font-weight: bold;
 }
 
 .section__contenido__comida {
@@ -108,5 +151,6 @@ body a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=main.css.map */

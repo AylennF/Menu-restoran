@@ -1,6 +1,8 @@
 $fuenteCuerpo:'Varela Round', sans-serif;
 $fuenteTitulos:'Parisienne', cursive;
 
+$colorTarjetas:beige;
+
 
 *{
     margin:0;
@@ -9,8 +11,9 @@ $fuenteTitulos:'Parisienne', cursive;
 }
 
 body{
-    margin-top: 200px;
-    background-color: #b5936f;
+    margin-top: 50px;
+    // background-color: #b5936f;
+    background-image: url("../media/fondo.png");
 
     a{
         text-decoration: none;

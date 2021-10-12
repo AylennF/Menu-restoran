@@ -1,16 +1,54 @@
-.section{    
+.section{ 
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    padding: 0 20px;
+
+    h1{
+       font-family: $fuenteTitulos; 
+       font-size: 2.7em;
+       margin-bottom: 15px;
+    //    color: $colorTarjetas;
+    }
+
     &__contenido{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        text-align: center;
+        text-align: left;
         align-items: center;
-        width: 100%;
+        padding: 7px 15px;
+        height: 70px;
+        margin:5px;
+
+        border-radius: 5px;
+        background-color:$colorTarjetas;
+        box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.219);
+        
+        h2{
+            font-family: $fuenteCuerpo; 
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        
+        p{
+            font-family: $fuenteCuerpo; 
+            color:rgb(73, 73, 73);
+            font-size: 0.8em;
+        }
+        
+        #precio{
+            font-size: 1.1em;
+            // border-left: 1px solid black;
+            padding-left: 5px;
+            color: black;
+            font-weight: bold;
+        }
 
         &__comida{
             display: flex;
             flex-direction: column;
-
+            padding-right: 5px;
         }
     }
 }
