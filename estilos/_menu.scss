@@ -1,66 +1,90 @@
-header {
+// MENU -------------------------------------------------------------------------------------------------
+
+nav {
+  height: 80px;
   background: $colorTarjetas;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 25px;
   font-family: $fuenteCuerpo;
-  margin-bottom: 50px;
 
-  img {
-    width: 60px;
-  }
+  ul {
+    display: flex;
+    list-style-type: none;
 
-  .contenedorMenu{
-    nav {
-background-color: black;
-      // display: flex;
-      // align-items: center;
-      // justify-content: space-between;
-      // padding: 15px 0;
-      // width: 100%;
+    li {
+      margin: 0 5px;
+    }
 
-      // .navUl {
-      //   display: flex;
-      //   position: relative;
-      //   align-items: center;
-      //   justify-content: center;
-      //   padding: 0;
-      //   list-style-type: none;
-        
-      //   .divLi{
-      //     display: flex;
-      //     li a {
-      //       // padding: 10px 1vw;
-      //       text-transform: uppercase;
-      //       font-size: 0.9em;
-      //       font-weight: bold;
-      //       transition: 0.2s ease;
-    
-      //       &:hover {
-      //         transition: 0.2s ease;
-      //         transform: scale(1.1);
-      //         color: $colorHoverMenu;
-      //       }
-      //     }
-      //   }
+    li a {
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      padding: 8px 10px;
+      transition: all 0.3s ease;
+
+      &:hover{
+        color: $colorHoverMenu;
       }
     }
-    
-  //   .hamburguesa {
-  //     background: transparent;
-  //     border: 0;
-  //     font-size: 1.5em;
-  //     cursor: pointer;
-      
-  //     &:focus {
-  //       outline: none;
-  //     }
-  //   }
-  // }
-}
+  }
+  .botonMenu i {
+    font-size: 28px;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+  }
 
-// // mediaqueries 
-// @media (max-width: 767px) {
-//     .navUl{
-//         visibility: hidden;
-//         height: 0;
-//         width: 0;
-//     }
-// }
+  #checkMenu {
+    display: none;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  //   MEDIAQUERIES
+  @media (max-width: 940px) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+
+    ul {
+      background: $colorTarjetas;
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      height: 100vh;
+      width: 100%;
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease;
+
+      li {
+        margin: 30px 0;
+
+        a {
+          font-size: 16px;
+          display: block;
+
+          &:hover{
+            color: $colorHoverMenu;
+            background: none;
+          }
+        }
+      }
+    }
+
+    .botonMenu i {
+      display: block;
+    }
+
+    #checkMenu:checked ~ ul {
+      left: -0%;
+    }
+  }
+}
