@@ -2,57 +2,65 @@ header {
   background: $colorTarjetas;
   font-family: $fuenteCuerpo;
   margin-bottom: 50px;
-  //   padding: 0 40px;
 
   img {
     width: 60px;
   }
 
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+  .contenedorMenu{
+    nav {
+background-color: black;
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-between;
+      // padding: 15px 0;
+      // width: 100%;
 
-    .navUl {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-      list-style-type: none;
-
-      li a {
-        display: inline-block;
-        padding: 10px 30px;
-        text-transform: uppercase;
-        font-size: 0.9em;
-        font-weight: bold;
-        transition: 0.2s ease;
-
-        &:hover {
-          transition: 0.2s ease;
-          transform: scale(1.1);
-          color: $colorHoverMenu;
-        }
+      // .navUl {
+      //   display: flex;
+      //   position: relative;
+      //   align-items: center;
+      //   justify-content: center;
+      //   padding: 0;
+      //   list-style-type: none;
+        
+      //   .divLi{
+      //     display: flex;
+      //     li a {
+      //       // padding: 10px 1vw;
+      //       text-transform: uppercase;
+      //       font-size: 0.9em;
+      //       font-weight: bold;
+      //       transition: 0.2s ease;
+    
+      //       &:hover {
+      //         transition: 0.2s ease;
+      //         transform: scale(1.1);
+      //         color: $colorHoverMenu;
+      //       }
+      //     }
+      //   }
       }
     }
-  }
-
-  .hamburguesa {
-    background: transparent;
-    border: 0;
-    font-size: 1.5em;
-    cursor: pointer;
-
-    &:focus {
-      outline: none;
-    }
-  }
+    
+  //   .hamburguesa {
+  //     background: transparent;
+  //     border: 0;
+  //     font-size: 1.5em;
+  //     cursor: pointer;
+      
+  //     &:focus {
+  //       outline: none;
+  //     }
+  //   }
+  // }
 }
 
-// mediaqueries 
-@media screen and (max-width: 767px) {
-    .navUl{
-        display: none;
-    }
-}
+// // mediaqueries 
+// @media (max-width: 767px) {
+//     .navUl{
+//         visibility: hidden;
+//         height: 0;
+//         width: 0;
+//     }
+// }
