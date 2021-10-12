@@ -3,9 +3,12 @@
   flex-direction: column;
   text-align: center;
   padding: 0 20px;
+  margin-top: 100px;
 
   h1 {
     font-family: $fuenteTitulos;
+    color:white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.527);
     font-size: 2.7em;
     margin-bottom: 15px;
   }
