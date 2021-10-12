@@ -1,24 +1,24 @@
-// MEDIAQUERIE INICIO    
+// MEDIAQUERIE INICIO
 
-@media (min-width:1025px){
-    .estiloOpcionesMenu{
-        flex-direction: row;
-        width: 40vw;
-       margin:10px;
-       img{
-        margin:0px 30px;
-       }
+@media (min-width: 1025px) {
+  .estiloOpcionesMenu {
+    flex-direction: row;
+    width: 40vw;
+    margin: 10px;
+    img {
+      margin: 0px 30px;
     }
+  }
 
-    .cuerpo{
-        &__menu{
-            &__items{
-                &--pizzas{
-                    img{
-                        transform: scale(-1);
-                    }
-                }
-            }
+  .cuerpo {
+    &__menu {
+      &__items {
+        &--pizzas {
+          img {
+            transform: scale(-1);
+          }
         }
+      }
     }
+  }
 }

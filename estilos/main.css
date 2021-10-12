@@ -6,8 +6,7 @@
 }
 
 body {
-  margin-top: 50px;
-  background-image: url("../media/fondo.png");
+  background-color: #b5936f;
 }
 
 body a {
@@ -26,9 +25,12 @@ body a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-height: 100vh;
+  cursor: pointer;
 }
 
 .estiloOpcionesMenu, .cuerpo__menu__items--entradas, .cuerpo__menu__items--carnes, .cuerpo__menu__items--pizzas, .cuerpo__menu__items--sanguches, .cuerpo__menu__items--guarniciones, .cuerpo__menu__items--bebidas, .cuerpo__menu__items--pastas, .cuerpo__menu__items--postres {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +63,9 @@ body a {
 }
 
 .estiloOpcionesMenu:hover, .cuerpo__menu__items--entradas:hover, .cuerpo__menu__items--carnes:hover, .cuerpo__menu__items--pizzas:hover, .cuerpo__menu__items--sanguches:hover, .cuerpo__menu__items--guarniciones:hover, .cuerpo__menu__items--bebidas:hover, .cuerpo__menu__items--pastas:hover, .cuerpo__menu__items--postres:hover {
-  background-color: #e0e0ca;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  background-color: #ceceba;
 }
 
 @media (min-width: 1025px) {
@@ -152,5 +156,77 @@ body a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-right: 5px;
+}
+
+header {
+  background: beige;
+  font-family: "Varela Round", sans-serif;
+  margin-bottom: 50px;
+}
+
+header img {
+  width: 60px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+header nav .navUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav .navUl li a {
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+header nav .navUl li a:hover {
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #a38361;
+}
+
+header .hamburguesa {
+  background: transparent;
+  border: 0;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+header .hamburguesa:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .navUl {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
