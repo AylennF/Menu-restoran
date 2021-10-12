@@ -1,0 +1,16 @@
+.section{    
+    &__contenido{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+
+        &__comida{
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}

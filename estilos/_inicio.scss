@@ -1,0 +1,65 @@
+.cuerpo{
+    &__menu{
+        &__items{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            min-height: 100vh;
+
+            &--entradas{
+                @extend .estiloOpcionesMenu;
+            }
+            &--carnes{
+                @extend .estiloOpcionesMenu;
+            }
+            &--pizzas{
+                @extend .estiloOpcionesMenu;
+            }
+            &--sanguches{
+                @extend .estiloOpcionesMenu;
+            }
+            &--guarniciones{
+                @extend .estiloOpcionesMenu;
+            }
+            &--bebidas{
+                @extend .estiloOpcionesMenu;
+            }
+            &--pastas{
+                @extend .estiloOpcionesMenu;
+            }
+            &--postres{
+                @extend .estiloOpcionesMenu;
+            }
+        }
+    }
+}
+
+.estiloOpcionesMenu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: $fuenteCuerpo;
+    text-transform: uppercase;
+    
+    margin:10px 0;
+    padding:10px;
+    width: 90vw;
+    height: 40vh;
+    border-radius: 5px;
+
+    background-color: beige;
+    box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.219);
+
+    img{
+        height: 80px;
+        margin:15px;
+    }
+}
+
+.estiloOpcionesMenu:hover{
+    background-color: rgb(224, 224, 202);
+}

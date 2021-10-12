@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-top: 200px;
+  background-color: #b5936f;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.cuerpo__menu__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.estiloOpcionesMenu, .cuerpo__menu__items--entradas, .cuerpo__menu__items--carnes, .cuerpo__menu__items--pizzas, .cuerpo__menu__items--sanguches, .cuerpo__menu__items--guarniciones, .cuerpo__menu__items--bebidas, .cuerpo__menu__items--pastas, .cuerpo__menu__items--postres {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Varela Round", sans-serif;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 10px;
+  width: 90vw;
+  height: 40vh;
+  border-radius: 5px;
+  background-color: beige;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+}
+
+.estiloOpcionesMenu img, .cuerpo__menu__items--entradas img, .cuerpo__menu__items--carnes img, .cuerpo__menu__items--pizzas img, .cuerpo__menu__items--sanguches img, .cuerpo__menu__items--guarniciones img, .cuerpo__menu__items--bebidas img, .cuerpo__menu__items--pastas img, .cuerpo__menu__items--postres img {
+  height: 80px;
+  margin: 15px;
+}
+
+.estiloOpcionesMenu:hover, .cuerpo__menu__items--entradas:hover, .cuerpo__menu__items--carnes:hover, .cuerpo__menu__items--pizzas:hover, .cuerpo__menu__items--sanguches:hover, .cuerpo__menu__items--guarniciones:hover, .cuerpo__menu__items--bebidas:hover, .cuerpo__menu__items--pastas:hover, .cuerpo__menu__items--postres:hover {
+  background-color: #e0e0ca;
+}
+
+@media (min-width: 1025px) {
+  .estiloOpcionesMenu, .cuerpo__menu__items--entradas, .cuerpo__menu__items--carnes, .cuerpo__menu__items--pizzas, .cuerpo__menu__items--sanguches, .cuerpo__menu__items--guarniciones, .cuerpo__menu__items--bebidas, .cuerpo__menu__items--pastas, .cuerpo__menu__items--postres {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 40vw;
+    margin: 10px;
+  }
+  .estiloOpcionesMenu img, .cuerpo__menu__items--entradas img, .cuerpo__menu__items--carnes img, .cuerpo__menu__items--pizzas img, .cuerpo__menu__items--sanguches img, .cuerpo__menu__items--guarniciones img, .cuerpo__menu__items--bebidas img, .cuerpo__menu__items--pastas img, .cuerpo__menu__items--postres img {
+    margin: 0px 30px;
+  }
+  .cuerpo__menu__items--pizzas img {
+    -webkit-transform: scale(-1);
+            transform: scale(-1);
+  }
+}
+
+.section__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.section__contenido__comida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */

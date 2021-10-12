@@ -1,0 +1,19 @@
+$fuenteCuerpo:'Varela Round', sans-serif;
+$fuenteTitulos:'Parisienne', cursive;
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 200px;
+    background-color: #b5936f;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
