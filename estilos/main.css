@@ -15,7 +15,7 @@ body a {
 }
 
 .cuerpo__menu__items {
-  margin-top: 100px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,7 +103,7 @@ body a {
 .section h1 {
   font-family: "Parisienne", cursive;
   color: white;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.527);
+  text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
   font-size: 2.7em;
   margin-bottom: 15px;
 }
@@ -255,6 +255,44 @@ nav .logo img {
   }
   nav #checkMenu:checked ~ ul {
     left: -0%;
+  }
+}
+
+.cuerpo__menu__recomendacion {
+  margin-top: 50px;
+  font-family: "Varela Round", sans-serif;
+  background-image: url(../media/recomendacion.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cuerpo__menu__recomendacion__h3 {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+  margin-bottom: 15px;
+}
+
+.cuerpo__menu__recomendacion__parrafo {
+  color: white;
+  font-size: 1.4em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+}
+
+@media (max-width: 940px) {
+  .cuerpo__menu__recomendacion {
+    margin-top: 145px;
+  }
+  .cuerpo__menu__recomendacion__h3 {
+    font-size: 1.6em;
+  }
+  .cuerpo__menu__recomendacion__parrafo {
+    font-size: 1.2em;
   }
 }
 /*# sourceMappingURL=main.css.map */

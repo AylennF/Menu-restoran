@@ -1,0 +1,42 @@
+.cuerpo__menu {
+  &__recomendacion {
+    margin-top: 50px;
+    font-family: $fuenteCuerpo;
+    background-image: url(../media/recomendacion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 20px;
+    text-align: center;
+
+    &__h3 {
+      font-size: 2.2em;
+      text-transform: uppercase;
+      color: white;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+      margin-bottom: 15px;
+    }
+
+    &__parrafo {
+      color: white;
+      font-size: 1.4em;
+      text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+    }
+  }
+
+  //   mediaqueries
+  @media (max-width: 940px) {
+    &__recomendacion {
+      margin-top: 145px;
+
+      &__h3 {
+        font-size: 1.6em;
+      }
+
+      &__parrafo {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
