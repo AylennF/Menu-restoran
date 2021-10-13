@@ -42,7 +42,10 @@ footer {
               transform: scale(1.1);
               transform: translateY(-5px);
               transition: 0.2s ease;
-              color: #F77737;
+              background: -webkit-linear-gradient(#F77737, #961b5b);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-weight: 500;
           }
       }
     }

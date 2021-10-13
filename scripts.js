@@ -6,11 +6,11 @@ window.onload = function(){
     $(".buttonConInformacion").hide();
     nroPagina=Number(localStorage.getItem("Pagina"));
     if (nroPagina == 1){
-        $("#flechaIzquierda").hide();
+        flechaIzquierda.style.cssText = ("opacity:0; height:0; width:0;");
     }
 
     if (nroPagina ===8){
-        $("#flechaDerecha").hide();
+        flechaDerecha.style.cssText = ("opacity:0; height:0; width:0;");
     }
 }
 

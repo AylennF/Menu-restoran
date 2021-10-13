@@ -5,7 +5,6 @@ $colorTarjetas:#f4e9f0;
 $colorFooter:#999999; 
 $colorFooterEnlace:#222222; 
 $colorFondo: #7e2c56;
-$colorFondoCurva: #994f7521;
 $colorHoverMenu: #ad5181 ;
 $colorHoverTarjetas: #d8bdcf ;
 
@@ -20,30 +19,5 @@ body {
   a {
     text-decoration: none;
     color: black;
-  }
-}
-
-.imgFondo{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1000;
-
-  i{
-    color:$colorFondoCurva;
-    font-size: 130px;
-  }
-}
-
-.imgFondoArriba{
-  position: absolute;
-  top: 80px;
-  right: 0;
-  transform: rotate(180deg);
-  z-index: -1000;
-
-  i{
-    color:$colorFondoCurva;
-    font-size: 90px;
   }
 }

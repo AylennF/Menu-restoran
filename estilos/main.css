@@ -14,32 +14,6 @@ body a {
   color: black;
 }
 
-.imgFondo {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1000;
-}
-
-.imgFondo i {
-  color: #994f7521;
-  font-size: 130px;
-}
-
-.imgFondoArriba {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  z-index: -1000;
-}
-
-.imgFondoArriba i {
-  color: #994f7521;
-  font-size: 90px;
-}
-
 .cuerpo__menu__items {
   margin-top: 50px;
   display: -webkit-box;
@@ -441,7 +415,10 @@ footer .footer1 i:nth-child(2):hover {
           transform: translateY(-5px);
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #F77737;
+  background: -webkit-linear-gradient(#F77737, #961b5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 footer .copyright {
@@ -461,7 +438,7 @@ footer .copyright {
   position: fixed;
   bottom: 30px;
   right: 20px;
-  background-color: #f4e9f0;
+  background-color: #3864c5;
   height: 60px;
   width: 60px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
@@ -474,6 +451,7 @@ footer .copyright {
       -ms-grid-row-align: center;
       align-self: center;
   padding: 0;
+  color: white;
   margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
