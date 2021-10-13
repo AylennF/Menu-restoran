@@ -299,7 +299,7 @@ nav .logo img {
 .cuerpo__menu__recomendacion {
   margin-top: 50px;
   font-family: "Varela Round", sans-serif;
-  background-image: url(../media/recomendacion.jpg);
+  background-image: url("../media/recomendacion.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
