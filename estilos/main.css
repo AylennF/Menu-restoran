@@ -388,19 +388,66 @@ nav .logo img {
 }
 
 footer {
-  background-color: #f4e9f0;
-  padding: 30px;
   margin-top: 40px;
+  background: #d8bdcf;
   font-family: "Varela Round", sans-serif;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: bolder;
+  text-align: center;
   -webkit-box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.33);
           box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.33);
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
-footer p {
-  text-align: center;
+footer .footer1 {
+  padding: 30px 10px;
+}
+
+footer .footer1 p {
+  text-transform: none;
+  font-size: 0.8em;
+}
+
+footer .footer1 p a {
+  text-decoration: underline;
+  font-style: italic;
+  color: #222222;
+}
+
+footer .footer1 i {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+footer .footer1 i:nth-child(1) {
+  margin-right: 20px;
+}
+
+footer .footer1 i:nth-child(1):hover {
+  color: #3b5998;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+footer .footer1 i:nth-child(2):hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: #F77737;
+}
+
+footer .copyright {
+  font-size: 0.7em;
+  background: #999999;
+  padding: 10px;
 }
 
 .buttonContacto {

@@ -1,17 +1,56 @@
-footer{
-    background-color: $colorTarjetas;
-    padding: 30px;
-    margin-top: 40px;
-    font-family: $fuenteCuerpo;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    font-weight: bolder;
-    box-shadow: -1px -1px 10px 4px rgba(0,0,0,0.33);
+footer {
+  margin-top: 40px;
+  background: $colorHoverTarjetas;
+  font-family: $fuenteCuerpo;
+  text-align: center;
+  box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.33);
+  font-weight: bolder;
+  text-transform: uppercase;
 
-    
-    
-    
-    p{
-        text-align: center;
+  .footer1 {
+    padding: 30px 10px;
+
+    p {
+      text-transform: none;
+      font-size: 0.8em;
+      
+      a {
+          text-decoration: underline;
+          font-style: italic;
+          color: $colorFooterEnlace;
+        }
     }
+    
+    i {
+        font-size: 2.5em;
+        margin-bottom: 25px;
+        transition: 0.2s ease;
+        
+        &:nth-child(1) {
+            margin-right: 20px;
+            
+            &:hover {
+                color: #3b5998;
+                transform: scale(1.1);
+                transform: translateY(-5px);
+                transition: 0.2s ease;
+            }
+        }
+        
+        &:nth-child(2){
+        &:hover{
+              transform: scale(1.1);
+              transform: translateY(-5px);
+              transition: 0.2s ease;
+              color: #F77737;
+          }
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.7em;
+    background: $colorFooter;
+    padding: 10px;
+  }
 }
