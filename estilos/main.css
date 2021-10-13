@@ -14,6 +14,32 @@ body a {
   color: black;
 }
 
+.imgFondo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+.imgFondo i {
+  color: #994f7521;
+  font-size: 130px;
+}
+
+.imgFondoArriba {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  z-index: -1000;
+}
+
+.imgFondoArriba i {
+  color: #994f7521;
+  font-size: 90px;
+}
+
 .cuerpo__menu__items {
   margin-top: 50px;
   display: -webkit-box;
@@ -352,6 +378,6 @@ nav .logo img {
 }
 
 .custom-shape-divider-bottom-1634131136 .shape-fill {
-  fill: #994f75;
+  fill: #994f7521;
 }
 /*# sourceMappingURL=main.css.map */
