@@ -14,7 +14,6 @@ let paginaPostres = document.getElementById("paginaPostres");
 
 var pagina=0;
 var nroPagina=0;
-   
 
 
 logo.onclick = () => {
@@ -22,35 +21,45 @@ logo.onclick = () => {
 }
 
 paginaEntradas.onclick = () => {
-    nroPagina=1;
+    $("#flechaIzquierda") .hide();
+    localStorage.setItem('Pagina', 0);
 }
 paginaPizzas.onclick = () => {
-    nroPagina=2;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 1);
 }
 paginaSanguches.onclick = () => {
-    nroPagina=3;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 2);
 }
 paginaGuarniciones.onclick = () => {
-    nroPagina=4;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 3);
 }
 paginaBebidas.onclick = () => {
-    nroPagina=5;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 4);
 }
 paginaPastas.onclick = () => {
-    nroPagina=6;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 5);
 }
 paginaPostres.onclick = () => {
-    nroPagina=7;
+    ubicacionFlechas();
+    localStorage.setItem('Pagina', 6);
 }
 
     
 flechaIzquierda.onclick = () => {
-    ubicacionFlechas();
     nroPagina=Number(localStorage.getItem("Pagina"));
     console.log(nroPagina);
+    if (nroPagina == 1){
+        $("#flechaIzquierda") .hide();
+    }else{
+    $("#flechaIzquierda") .show();
+    }
     nroPagina=nroPagina-1;  
     localStorage.setItem('Pagina', nroPagina);
-    console.log(pagina);
     irPagina();
 }
 
@@ -68,16 +77,16 @@ flechaDerecha.onclick = () => {
 
 function irPagina(){
     switch(nroPagina){
-        case 1:
+        case 0:
             location.href = "entradas.html";
         break;
-        case 2:
+        case 1:
             location.href = "pizzas.html";
         break;
-        case 3:
+        case 2:
             location.href = "entradas.html";
         break;
-        case 4:
+        case 3:
             location.href = "pizzas.html";
         break;
     }
@@ -89,9 +98,9 @@ function ubicacionFlechas(){
     }else if (localStorage.getItem("Pagina")>= "0"){
         $("#flechaIzquierda") .show();
     }
-    if (localStorage.getItem("Pagina")=== "7"){
+    if (localStorage.getItem("Pagina")=== "6"){
         $("#flechaDerecha").hide();
-    }else if (localStorage.getItem("Pagina")<= "7") {
+    }else if (localStorage.getItem("Pagina")<= "9") {
         $("#flechaDerecha").show();
     }
 }
