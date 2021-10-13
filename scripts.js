@@ -3,6 +3,7 @@ let flechaDerecha = document.getElementById("flechaDerecha");
 var nroPagina;
 
 window.onload = function(){
+    $(".buttonConInformacion").hide();
     nroPagina=Number(localStorage.getItem("Pagina"));
     if (nroPagina == 1){
         $("#flechaIzquierda").hide();
@@ -53,3 +54,4 @@ function redireccionar(){
         break;
     }
 }
+
