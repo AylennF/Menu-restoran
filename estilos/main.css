@@ -403,4 +403,31 @@ footer {
 footer p {
   text-align: center;
 }
+
+.buttonContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  background-color: #f4e9f0;
+  height: 40px;
+  width: 40px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+  border-radius: 50%;
+}
+
+.buttonContacto i {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0;
+  margin: 0;
+}
 /*# sourceMappingURL=main.css.map */
