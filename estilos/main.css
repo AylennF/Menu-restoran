@@ -204,6 +204,13 @@ body a {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
 }
 
+.flechas #nroPagina {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
 .estiloFlechas, .flechas--izquierda, .flechas--derecha {
   display: -webkit-box;
   display: -ms-flexbox;
