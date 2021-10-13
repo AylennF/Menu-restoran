@@ -7,6 +7,7 @@
 
 body {
   background-color: #7e2c56;
+  height: 100vh;
 }
 
 body a {
@@ -358,26 +359,5 @@ nav .logo img {
   .cuerpo__menu__recomendacion__parrafo {
     font-size: 1.2em;
   }
-}
-
-.custom-shape-divider-bottom-1634131136 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  z-index: -10000;
-}
-
-.custom-shape-divider-bottom-1634131136 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 172px;
-}
-
-.custom-shape-divider-bottom-1634131136 .shape-fill {
-  fill: #994f7521;
 }
 /*# sourceMappingURL=main.css.map */
