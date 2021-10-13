@@ -415,10 +415,8 @@ footer .footer1 i:nth-child(1) {
 
 footer .footer1 i:nth-child(1):hover {
   color: #3b5998;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: scale(1.1) translateY(-5px);
+          transform: scale(1.1) translateY(-5px);
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }

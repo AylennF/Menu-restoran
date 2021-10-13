@@ -31,8 +31,7 @@ footer {
             
             &:hover {
                 color: #3b5998;
-                transform: scale(1.1);
-                transform: translateY(-5px);
+                transform: scale(1.1) translateY(-5px);
                 transition: 0.2s ease;
             }
         }
