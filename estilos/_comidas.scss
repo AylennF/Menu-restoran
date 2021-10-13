@@ -87,6 +87,19 @@
     color:black;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
   }
+
+  #nroPagina{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    font-family: $fuenteCuerpo;
+    color:white;
+    font-weight: bold;
+    font-size: 0.8em;
+    align-items:center;
+    margin:0;
+    padding: 0;
+  }
 }
 
 .estiloFlechas{

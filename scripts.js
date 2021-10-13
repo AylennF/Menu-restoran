@@ -1,10 +1,12 @@
 let flechaIzquierda = document.getElementById("flechaIzquierda");
 let flechaDerecha = document.getElementById("flechaDerecha");
+let nPagina = document.getElementById("nroPagina");
 var nroPagina;
 
 window.onload = function () {
     $(".buttonConInformacion").hide();
     nroPagina = Number(localStorage.getItem("Pagina"));
+    nPagina.textContent = (nroPagina + " / 8")
     if (nroPagina == 1) {
         flechaIzquierda.style.cssText = ("opacity:0; height:0; width:0;");
     }
