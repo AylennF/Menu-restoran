@@ -387,4 +387,20 @@ nav .logo img {
 .fondo {
   background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
 }
+
+footer {
+  background-color: #f4e9f0;
+  padding: 30px;
+  margin-top: 40px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -webkit-box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.33);
+          box-shadow: -1px -1px 10px 4px rgba(0, 0, 0, 0.33);
+}
+
+footer p {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
