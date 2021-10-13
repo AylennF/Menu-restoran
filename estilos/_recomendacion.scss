@@ -1,6 +1,5 @@
 .cuerpo__menu {
   &__recomendacion {
-    margin-top: 50px;
     font-family: $fuenteCuerpo;
     background-image: url("../media/recomendacion.jpg");
     background-repeat: no-repeat;
@@ -28,8 +27,6 @@
   //   mediaqueries
   @media (max-width: 940px) {
     &__recomendacion {
-      margin-top: 145px;
-
       &__h3 {
         font-size: 1.6em;
       }

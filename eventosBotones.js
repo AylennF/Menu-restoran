@@ -82,6 +82,3 @@ paginaPostresIndex.onclick = () => {
     localStorage.setItem('Pagina', 8);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-
-
-

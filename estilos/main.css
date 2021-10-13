@@ -320,7 +320,6 @@ nav .logo img {
 }
 
 .cuerpo__menu__recomendacion {
-  margin-top: 50px;
   font-family: "Varela Round", sans-serif;
   background-image: url("../media/recomendacion.jpg");
   background-repeat: no-repeat;
@@ -346,9 +345,6 @@ nav .logo img {
 }
 
 @media (max-width: 940px) {
-  .cuerpo__menu__recomendacion {
-    margin-top: 145px;
-  }
   .cuerpo__menu__recomendacion__h3 {
     font-size: 1.6em;
   }
@@ -453,5 +449,61 @@ footer .copyright {
   padding: 0;
   color: white;
   margin: 0;
+}
+
+.horarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  margin: 40px 0px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  background-color: #7e2c56;
+}
+
+.horarios h1,
+.horarios p {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+
+.horarios h1 {
+  margin-right: 25px;
+  font-size: 2.3em;
+}
+
+.horarios .linea {
+  margin-right: 60px;
+  width: 2px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 940px) {
+  .horarios {
+    margin-top: 120px;
+  }
+}
+
+.horarios h1 {
+  margin-right: 23px;
+  font-size: 2em;
+}
+
+.horarios p {
+  font-size: 13px;
+}
+
+.horarios .linea {
+  margin-right: 50px;
 }
 /*# sourceMappingURL=main.css.map */
