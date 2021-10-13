@@ -3,14 +3,28 @@
   flex-direction: column;
   text-align: center;
   padding: 0 20px;
-  margin-top: 100px;
+  margin-top: 50px;
+  
+  @media (max-width: 940px) {
+    margin-top: 120px;
+  }
 
   h1 {
-    font-family: $fuenteTitulos;
-    color: white;
+    font-family: $fuenteCuerpo;
     text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
-    font-size: 2.7em;
-    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-transform: uppercase;
+  }
+  
+  .encabezado{
+    background-color: $colorTarjetas;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
   }
 
   &__contenido {
@@ -23,8 +37,8 @@
     height: 70px;
     margin: 5px;
 
-    border-radius: 5px;
     background-color: $colorTarjetas;
+    border-radius: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
 
     h2 {
