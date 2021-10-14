@@ -19,35 +19,35 @@ let paginaCeliacoIndex = document.getElementById("paginaCeliacoIndex");
 let paginaPostresIndex = document.getElementById("paginaPostresIndex");
 
 
-paginaEntradas.onclick = () => {
+paginaVegetariano.onclick = () => {
     localStorage.setItem('Pagina', 1);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaCarnes.onclick = () => {
+paginaCeliaco.onclick = () => {
     localStorage.setItem('Pagina', 2);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPizzas.onclick = () => {
+paginaEntradas.onclick = () => {
     localStorage.setItem('Pagina', 3);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaSandwiches.onclick = () => {
+paginaCarnes.onclick = () => {
     localStorage.setItem('Pagina', 4);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaGuarniciones.onclick = () => {
+paginaPizzas.onclick = () => {
     localStorage.setItem('Pagina', 5);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPastas.onclick = () => {
+paginaSandwiches.onclick = () => {
     localStorage.setItem('Pagina', 6);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaVegetariano.onclick = () => {
+paginaGuarniciones.onclick = () => {
     localStorage.setItem('Pagina', 7);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaCeliaco.onclick = () => {
+paginaPastas.onclick = () => {
     localStorage.setItem('Pagina', 8);
     console.log(Number(localStorage.getItem("Pagina")));
 }
@@ -56,35 +56,36 @@ paginaPostres.onclick = () => {
     console.log(Number(localStorage.getItem("Pagina")));
 }
 
-paginaEntradasIndex.onclick = () => {
+// INDEX
+paginaVegetarianoIndex.onclick = () => {
     localStorage.setItem('Pagina', 1);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaCarnesIndex.onclick = () => {
+paginaCeliacoIndex.onclick = () => {
     localStorage.setItem('Pagina', 2);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPizzasIndex.onclick = () => {
+paginaEntradasIndex.onclick = () => {
     localStorage.setItem('Pagina', 3);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaSandwichesIndex.onclick = () => {
+paginaCarnesIndex.onclick = () => {
     localStorage.setItem('Pagina', 4);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaGuarnicionesIndex.onclick = () => {
+paginaPizzasIndex.onclick = () => {
     localStorage.setItem('Pagina', 5);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPastasIndex.onclick = () => {
+paginaSandwichesIndex.onclick = () => {
     localStorage.setItem('Pagina', 6);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaVegetarianoIndex.onclick = () => {
+paginaGuarnicionesIndex.onclick = () => {
     localStorage.setItem('Pagina', 7);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaCeliacoIndex.onclick = () => {
+paginaPastasIndex.onclick = () => {
     localStorage.setItem('Pagina', 8);
     console.log(Number(localStorage.getItem("Pagina")));
 }

@@ -31,32 +31,32 @@ flechaDerecha.onclick = () => {
 function redireccionar() {
     switch (nroPagina) {
         case 1:
-            location.href = "entradas.html";
-            break;
-        case 2:
-            location.href = "carnes.html";
-            break;
-        case 3:
-            location.href = "pizzas.html";
-            break;
-        case 4:
-            location.href = "sandwiches.html";
-            break;
-        case 5:
-            location.href = "guarniciones.html";
-            break;
-        case 6:
-            location.href = "pastas.html";
-            break;
-        case 7:
             location.href = "vegetariano.html";
-            break;
-        case 8:
+        break;
+        case 2:
             location.href = "celiaco.html";
-            break;
+        break;
+        case 3:
+            location.href = "entradas.html";
+        break;
+        case 4:
+            location.href = "carnes.html";
+        break;
+        case 5:
+            location.href = "sandwiches.html";
+        break;
+        case 6:
+            location.href = "pizzas.html";
+        break;
+        case 7:
+            location.href = "guarniciones.html";
+        break;
+        case 8:
+            location.href = "pastas.html";
+        break;
         case 9:
             location.href = "postres.html";
-            break;
+        break;
     }
 }
 
