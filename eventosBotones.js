@@ -4,7 +4,8 @@ let paginaPizzas = document.getElementById("paginaPizzas");
 let paginaSandwiches = document.getElementById("paginaSandwiches");
 let paginaGuarniciones = document.getElementById("paginaGuarniciones");
 let paginaPastas = document.getElementById("paginaPastas");
-let paginaBebidas = document.getElementById("paginaBebidas");
+let paginaVegetariano = document.getElementById("paginaVegetariano");
+let paginaCeliaco = document.getElementById("paginaCeliaco");
 let paginaPostres = document.getElementById("paginaPostres");
 
 let paginaEntradasIndex = document.getElementById("paginaEntradasIndex");
@@ -13,7 +14,8 @@ let paginaPizzasIndex = document.getElementById("paginaPizzasIndex");
 let paginaSandwichesIndex = document.getElementById("paginaSandwichesIndex");
 let paginaGuarnicionesIndex = document.getElementById("paginaGuarnicionesIndex");
 let paginaPastasIndex = document.getElementById("paginaPastasIndex");
-let paginaBebidasIndex = document.getElementById("paginaBebidasIndex");
+let paginaVegetarianoIndex = document.getElementById("paginaVegetarianoIndex");
+let paginaCeliacoIndex = document.getElementById("paginaCeliacoIndex");
 let paginaPostresIndex = document.getElementById("paginaPostresIndex");
 
 
@@ -41,12 +43,16 @@ paginaPastas.onclick = () => {
     localStorage.setItem('Pagina', 6);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaBebidas.onclick = () => {
+paginaVegetariano.onclick = () => {
     localStorage.setItem('Pagina', 7);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPostres.onclick = () => {
+paginaCeliaco.onclick = () => {
     localStorage.setItem('Pagina', 8);
+    console.log(Number(localStorage.getItem("Pagina")));
+}
+paginaPostres.onclick = () => {
+    localStorage.setItem('Pagina', 9);
     console.log(Number(localStorage.getItem("Pagina")));
 }
 
@@ -74,11 +80,15 @@ paginaPastasIndex.onclick = () => {
     localStorage.setItem('Pagina', 6);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaBebidasIndex.onclick = () => {
+paginaVegetarianoIndex.onclick = () => {
     localStorage.setItem('Pagina', 7);
     console.log(Number(localStorage.getItem("Pagina")));
 }
-paginaPostresIndex.onclick = () => {
+paginaCeliacoIndex.onclick = () => {
     localStorage.setItem('Pagina', 8);
+    console.log(Number(localStorage.getItem("Pagina")));
+}
+paginaPostresIndex.onclick = () => {
+    localStorage.setItem('Pagina', 9);
     console.log(Number(localStorage.getItem("Pagina")));
 }

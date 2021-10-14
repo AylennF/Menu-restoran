@@ -6,12 +6,12 @@ var nroPagina;
 window.onload = function () {
     $(".buttonConInformacion").hide();
     nroPagina = Number(localStorage.getItem("Pagina"));
-    nPagina.textContent = (nroPagina + " / 8")
+    nPagina.textContent = (nroPagina + " / 9")
     if (nroPagina == 1) {
         flechaIzquierda.style.cssText = ("opacity:0; height:0; width:0;");
     }
 
-    if (nroPagina === 8) {
+    if (nroPagina === 9) {
         flechaDerecha.style.cssText = ("opacity:0; height:0; width:0;");
     }
 }
@@ -49,9 +49,12 @@ function redireccionar() {
             location.href = "pastas.html";
             break;
         case 7:
-            location.href = "bebidas.html";
+            location.href = "vegetariano.html";
             break;
         case 8:
+            location.href = "celiaco.html";
+            break;
+        case 9:
             location.href = "postres.html";
             break;
     }
