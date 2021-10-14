@@ -95,7 +95,6 @@ body a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
   padding: 0 20px;
   margin-top: 50px;
 }
@@ -104,6 +103,15 @@ body a {
   .section {
     margin-top: 120px;
   }
+}
+
+.section h2 {
+  font-family: "Varela Round", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #f4e9f0;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 .section h1 {
@@ -125,8 +133,8 @@ body a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
   border-radius: 5px;
+  margin-bottom: 30px;
   -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
           box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.219);
 }
@@ -157,18 +165,15 @@ body a {
 
 .section__contenido h2 {
   font-family: "Varela Round", sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 0.9em;
-}
-
-.section__contenido p {
-  font-family: "Varela Round", sans-serif;
-  color: #494949;
-  font-size: 0.8em;
+  color: black;
+  margin: 0;
 }
 
 .section__contenido #precio {
   font-size: 1.1em;
+  font-family: "Varela Round", sans-serif;
   padding-left: 5px;
   color: black;
   font-weight: bold;
