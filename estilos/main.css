@@ -566,4 +566,30 @@ footer .copyright {
 .horarios .linea {
   margin-right: 50px;
 }
+
+.encuesta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.encuesta p, .encuesta a {
+  font-family: "Varela Round", sans-serif;
+  color: white;
+  font-size: 0.9em;
+}
+
+.encuesta p a, .encuesta a a {
+  text-decoration: underline;
+  font-style: italic;
+  color: #ebebeb;
+}
 /*# sourceMappingURL=main.css.map */

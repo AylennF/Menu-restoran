@@ -1,0 +1,19 @@
+.encuesta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+
+    p, a{
+        font-family: $fuenteCuerpo;
+        color: white;
+        font-size: 0.9em;
+
+        a{
+            text-decoration: underline;
+            font-style: italic;
+            color: rgb(235, 235, 235);
+        }
+    }
+}
