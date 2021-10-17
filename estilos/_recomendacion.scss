@@ -1,26 +1,14 @@
 .cuerpo__menu {
   &__recomendacion {
-    font-family: $fuenteCuerpo;
+    @extend .estiloRecomendacion;
     background-image: url("../media/recomendacion.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    padding: 50px 20px;
-    text-align: center;
 
     &__h3 {
-      font-size: 2em;
-      text-transform: uppercase;
-      color: white;
-      text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
-      margin-bottom: 15px;
+      @extend .recomendacionh3;
     }
 
     &__parrafo {
-      color: white;
-      font-size: 1em;
-      text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+      @extend .recomendacionp;
     }
   }
 
@@ -36,4 +24,80 @@
       }
     }
   }
+
+  &__celiaco{
+    @extend .estiloRecomendacion;
+    background-image: url("../media/recomendacioncel.jpg");
+
+    &__h3 {
+      @extend .recomendacionh3;
+    }
+
+    &__parrafo {
+      @extend .recomendacionp;
+    }
+  }
+
+  //   mediaqueries
+  @media (max-width: 940px) {
+    &__celiaco {
+      &__h3 {
+        font-size: 1.6em;
+      }
+
+      &__parrafo {
+        font-size: 1.2em;
+      }
+    }
+  }
+  
+  &__vege{
+    @extend .estiloRecomendacion;
+    background-image: url("../media/recomendacionveg.jpg");
+
+    &__h3 {
+      @extend .recomendacionh3;
+    }
+
+    &__parrafo {
+      @extend .recomendacionp;
+    }
+  }
+
+  //   mediaqueries
+  @media (max-width: 940px) {
+    &__vege {
+      &__h3 {
+        font-size: 1.6em;
+      }
+
+      &__parrafo {
+        font-size: 1.2em;
+      }
+    }
+  }
+}
+
+.estiloRecomendacion {
+  font-family: $fuenteCuerpo;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.recomendacionh3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+  margin-bottom: 15px;
+}
+
+.recomendacionp {
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
 }

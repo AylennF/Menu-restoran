@@ -353,28 +353,7 @@ nav .logo img {
 }
 
 .cuerpo__menu__recomendacion {
-  font-family: "Varela Round", sans-serif;
   background-image: url("../media/recomendacion.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.cuerpo__menu__recomendacion__h3 {
-  font-size: 2em;
-  text-transform: uppercase;
-  color: white;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
-  margin-bottom: 15px;
-}
-
-.cuerpo__menu__recomendacion__parrafo {
-  color: white;
-  font-size: 1em;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
 }
 
 @media (max-width: 940px) {
@@ -384,6 +363,56 @@ nav .logo img {
   .cuerpo__menu__recomendacion__parrafo {
     font-size: 1.2em;
   }
+}
+
+.cuerpo__menu__celiaco {
+  background-image: url("../media/recomendacioncel.jpg");
+}
+
+@media (max-width: 940px) {
+  .cuerpo__menu__celiaco__h3 {
+    font-size: 1.6em;
+  }
+  .cuerpo__menu__celiaco__parrafo {
+    font-size: 1.2em;
+  }
+}
+
+.cuerpo__menu__vege {
+  background-image: url("../media/recomendacionveg.jpg");
+}
+
+@media (max-width: 940px) {
+  .cuerpo__menu__vege__h3 {
+    font-size: 1.6em;
+  }
+  .cuerpo__menu__vege__parrafo {
+    font-size: 1.2em;
+  }
+}
+
+.estiloRecomendacion, .cuerpo__menu__recomendacion, .cuerpo__menu__celiaco, .cuerpo__menu__vege {
+  font-family: "Varela Round", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.recomendacionh3, .cuerpo__menu__recomendacion__h3, .cuerpo__menu__celiaco__h3, .cuerpo__menu__vege__h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
+  margin-bottom: 15px;
+}
+
+.recomendacionp, .cuerpo__menu__recomendacion__parrafo, .cuerpo__menu__celiaco__parrafo, .cuerpo__menu__vege__parrafo {
+  color: white;
+  font-size: 1em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.205);
 }
 
 .fondo {
