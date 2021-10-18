@@ -28,7 +28,7 @@
   &__celiaco{
     @extend .estiloRecomendacion;
     background-image: url("../media/recomendacioncel.jpg");
-
+    
     &__h3 {
       @extend .recomendacionh3;
     }
