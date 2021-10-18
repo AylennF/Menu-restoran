@@ -27,6 +27,7 @@
 
   &__celiaco{
     @extend .estiloRecomendacion;
+    margin-top: 50px;
     background-image: url("../media/recomendacioncel.jpg");
     
     &__h3 {
@@ -53,6 +54,7 @@
   
   &__vege{
     @extend .estiloRecomendacion;
+    margin-top: 50px;
     background-image: url("../media/recomendacionveg.jpg");
 
     &__h3 {
