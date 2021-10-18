@@ -371,6 +371,9 @@ nav .logo img {
 }
 
 @media (max-width: 940px) {
+  .cuerpo__menu__celiaco {
+    margin-top: 130px;
+  }
   .cuerpo__menu__celiaco__h3 {
     font-size: 1.6em;
   }
@@ -385,6 +388,9 @@ nav .logo img {
 }
 
 @media (max-width: 940px) {
+  .cuerpo__menu__vege {
+    margin-top: 130px;
+  }
   .cuerpo__menu__vege__h3 {
     font-size: 1.6em;
   }
