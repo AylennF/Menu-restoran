@@ -366,6 +366,7 @@ nav .logo img {
 }
 
 .cuerpo__menu__celiaco {
+  margin-top: 50px;
   background-image: url("../media/recomendacioncel.jpg");
 }
 
@@ -379,6 +380,7 @@ nav .logo img {
 }
 
 .cuerpo__menu__vege {
+  margin-top: 50px;
   background-image: url("../media/recomendacionveg.jpg");
 }
 
