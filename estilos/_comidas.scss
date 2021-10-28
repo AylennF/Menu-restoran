@@ -22,6 +22,7 @@
     font-family: $fuenteCuerpo;
     text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.527);
     font-size: 1.8em;
+    text-align: center;
     text-transform: uppercase;
   }
   
@@ -128,3 +129,10 @@
 .estiloFlechas:hover{
   background-color: $colorHoverTarjetas;
 }
+  
+
+  @media (max-width: 940px) {
+    .medias{
+      margin-top: 60px;
+    }
+  }
